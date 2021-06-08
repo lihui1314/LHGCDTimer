@@ -1,0 +1,6 @@
+framework module Pods_LHGCDTimer_Tests {
+  umbrella header "Pods-LHGCDTimer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

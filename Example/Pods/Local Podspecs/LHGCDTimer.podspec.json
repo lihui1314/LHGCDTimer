@@ -1,0 +1,22 @@
+{
+  "name": "LHGCDTimer",
+  "version": "0.1.0",
+  "summary": "A short description of LHGCDTimer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/18221534728@163.com/LHGCDTimer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "18221534728@163.com": "15652628678@163.com"
+  },
+  "source": {
+    "git": "https://github.com/18221534728@163.com/LHGCDTimer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LHGCDTimer/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Pods_LHGCDTimer_Example {
+  umbrella header "Pods-LHGCDTimer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

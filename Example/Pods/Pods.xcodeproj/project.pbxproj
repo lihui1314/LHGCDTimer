@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1027800125837CAD013B394A1FE43197 /* Pods-LHGCDTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CCFEF39B2E40EB41D6412FABE89E3 /* Pods-LHGCDTimer_Example-dummy.m */; };
+		198A01D394FF42381EEE43F720DC6B0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		34CE5B4E7A773668BDAE37878CFF768A /* LHGCDTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4EAC9024CE6E0C33648A6D6E17551 /* LHGCDTimer-dummy.m */; };
+		60ED36739D5FB5172AADAB213BC7AB34 /* LHGCDTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD33B2F1F74CE454C75E161FCBD4CC0 /* LHGCDTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		812DC4E597E84C98570503ED82CB71AF /* Pods-LHGCDTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DD2B84A1C2C42EEBD276A406E76B13 /* Pods-LHGCDTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C99A4E347EB5798E1E8EBD1C6BD5C5 /* Pods-LHGCDTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52809ACDF010DEE317CBC43A5CDE458F /* Pods-LHGCDTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		970DD2EBA4F247FD07A47E8085F64F7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AD034C3FCD56DB7C057ECD4299031063 /* Pods-LHGCDTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30430CDBF3B0633DBD71A51F1B065194 /* Pods-LHGCDTimer_Tests-dummy.m */; };
+		FDF5C978A60107FCBF3DA6F0D6FC95AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FFB3E256A86ED15AAEF8E57BF336E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F538C862240C5985E9506A683BADE81D;
+			remoteInfo = "Pods-LHGCDTimer_Example";
+		};
+		A232D4759F91C723545C6C5A29434172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01633EA215E6C691136EC381A9DBCB61;
+			remoteInfo = LHGCDTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F60831FA00B96D4D91FEDD24D9D6387 /* LHGCDTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LHGCDTimer.modulemap; sourceTree = "<group>"; };
+		15AFA998ED50F50D8F93A56646B65813 /* LHGCDTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LHGCDTimer-prefix.pch"; sourceTree = "<group>"; };
+		1E1AA40AD4CFF0C0811F450B8F33F8BF /* Pods-LHGCDTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LHGCDTimer_Example.modulemap"; sourceTree = "<group>"; };
+		22151917F37DFE551C1D21E2C1922445 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2EDD03AD7B26CBEED15F9DE741D16ACE /* LHGCDTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LHGCDTimer.xcconfig; sourceTree = "<group>"; };
+		30430CDBF3B0633DBD71A51F1B065194 /* Pods-LHGCDTimer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LHGCDTimer_Tests-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		386EE61A349E2F90713C41924C0A31E4 /* LHGCDTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LHGCDTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF069F9AFBE43B51E6E05D3212AFBC7 /* Pods-LHGCDTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHGCDTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		40ECD267AF6AA36236887F37D775AFFD /* Pods-LHGCDTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LHGCDTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52809ACDF010DEE317CBC43A5CDE458F /* Pods-LHGCDTimer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LHGCDTimer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		535BC9304CD43555AFEF192FE47D4FD5 /* Pods-LHGCDTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHGCDTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		53663A77F69AFA5999E233E401CB9C34 /* Pods-LHGCDTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LHGCDTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		57B88882B3D7408C89A4B5E8DE7D512B /* LHGCDTimer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LHGCDTimer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5CA4EAC9024CE6E0C33648A6D6E17551 /* LHGCDTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LHGCDTimer-dummy.m"; sourceTree = "<group>"; };
+		81BB8445EEA3C3C4194E3A99F1DE4718 /* Pods-LHGCDTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHGCDTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8BE57E30C49BA420A4BCF11C0EA42798 /* Pods-LHGCDTimer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHGCDTimer_Example-Info.plist"; sourceTree = "<group>"; };
+		8E48ADA52136C4E7ACD0FE8D4D606593 /* Pods_LHGCDTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHGCDTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		906214E5F9EAB7C487A31662D0532440 /* Pods-LHGCDTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHGCDTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD33B2F1F74CE454C75E161FCBD4CC0 /* LHGCDTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LHGCDTimer-umbrella.h"; sourceTree = "<group>"; };
+		A7894DE734316D3C459B7CBBBCEECC9A /* LHGCDTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LHGCDTimer-Info.plist"; sourceTree = "<group>"; };
+		B9D439B5CCAEE4C6A9A45347F75BD85B /* Pods-LHGCDTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LHGCDTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C04CCFEF39B2E40EB41D6412FABE89E3 /* Pods-LHGCDTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LHGCDTimer_Example-dummy.m"; sourceTree = "<group>"; };
+		C47FC8C5BC8F292D1790B968032053BC /* Pods-LHGCDTimer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHGCDTimer_Tests-Info.plist"; sourceTree = "<group>"; };
+		CBB831FC58DE5CC960FD912206037B67 /* Pods_LHGCDTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHGCDTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B83297A70AF4029F030007891B03D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D4C18220E0E770E08AFEA9542BE446DF /* Pods-LHGCDTimer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LHGCDTimer_Tests.modulemap"; sourceTree = "<group>"; };
+		DE3386B2E28DA4B512B51ABEE5076980 /* Pods-LHGCDTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHGCDTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8DD2B84A1C2C42EEBD276A406E76B13 /* Pods-LHGCDTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LHGCDTimer_Example-umbrella.h"; sourceTree = "<group>"; };
+		F5A5DFEA0CA6BA29FEBAFBB8E8AFA7EA /* Pods-LHGCDTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHGCDTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		732D21EBCCB3EFDEC1CDD5BD8E8D1DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198A01D394FF42381EEE43F720DC6B0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B9972FF438C0B747E5A86705D77D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970DD2EBA4F247FD07A47E8085F64F7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A788B6BA22324E318DD262A0DB9461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF5C978A60107FCBF3DA6F0D6FC95AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1594209E0F654C9D1823DF1880153555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				386EE61A349E2F90713C41924C0A31E4 /* LHGCDTimer.framework */,
+				CBB831FC58DE5CC960FD912206037B67 /* Pods_LHGCDTimer_Example.framework */,
+				8E48ADA52136C4E7ACD0FE8D4D606593 /* Pods_LHGCDTimer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36BDAC11EB9F1B6BA399D012F7EE77E2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FEDBC1931771CEB1D3D49C23EE7D58C /* LHGCDTimer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		734B2C101B6BED91E54EF5BD9E1AEF68 /* Pods-LHGCDTimer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1E1AA40AD4CFF0C0811F450B8F33F8BF /* Pods-LHGCDTimer_Example.modulemap */,
+				B9D439B5CCAEE4C6A9A45347F75BD85B /* Pods-LHGCDTimer_Example-acknowledgements.markdown */,
+				F5A5DFEA0CA6BA29FEBAFBB8E8AFA7EA /* Pods-LHGCDTimer_Example-acknowledgements.plist */,
+				C04CCFEF39B2E40EB41D6412FABE89E3 /* Pods-LHGCDTimer_Example-dummy.m */,
+				53663A77F69AFA5999E233E401CB9C34 /* Pods-LHGCDTimer_Example-frameworks.sh */,
+				8BE57E30C49BA420A4BCF11C0EA42798 /* Pods-LHGCDTimer_Example-Info.plist */,
+				E8DD2B84A1C2C42EEBD276A406E76B13 /* Pods-LHGCDTimer_Example-umbrella.h */,
+				3AF069F9AFBE43B51E6E05D3212AFBC7 /* Pods-LHGCDTimer_Example.debug.xcconfig */,
+				535BC9304CD43555AFEF192FE47D4FD5 /* Pods-LHGCDTimer_Example.release.xcconfig */,
+			);
+			name = "Pods-LHGCDTimer_Example";
+			path = "Target Support Files/Pods-LHGCDTimer_Example";
+			sourceTree = "<group>";
+		};
+		78350B753567DC62A194956817C88742 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				57B88882B3D7408C89A4B5E8DE7D512B /* LHGCDTimer.podspec */,
+				22151917F37DFE551C1D21E2C1922445 /* LICENSE */,
+				D0B83297A70AF4029F030007891B03D9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8FEDBC1931771CEB1D3D49C23EE7D58C /* LHGCDTimer */ = {
+			isa = PBXGroup;
+			children = (
+				78350B753567DC62A194956817C88742 /* Pod */,
+				BB7C21E917E010A53BA11BE47007EC0F /* Support Files */,
+			);
+			name = LHGCDTimer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BB7C21E917E010A53BA11BE47007EC0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F60831FA00B96D4D91FEDD24D9D6387 /* LHGCDTimer.modulemap */,
+				2EDD03AD7B26CBEED15F9DE741D16ACE /* LHGCDTimer.xcconfig */,
+				5CA4EAC9024CE6E0C33648A6D6E17551 /* LHGCDTimer-dummy.m */,
+				A7894DE734316D3C459B7CBBBCEECC9A /* LHGCDTimer-Info.plist */,
+				15AFA998ED50F50D8F93A56646B65813 /* LHGCDTimer-prefix.pch */,
+				9DD33B2F1F74CE454C75E161FCBD4CC0 /* LHGCDTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LHGCDTimer";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				36BDAC11EB9F1B6BA399D012F7EE77E2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1594209E0F654C9D1823DF1880153555 /* Products */,
+				D3F7E7B15D6FB33877D0FD359E641409 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3F7E7B15D6FB33877D0FD359E641409 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				734B2C101B6BED91E54EF5BD9E1AEF68 /* Pods-LHGCDTimer_Example */,
+				D68078C6E31A4D1BAE1255ED5612CA1C /* Pods-LHGCDTimer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D68078C6E31A4D1BAE1255ED5612CA1C /* Pods-LHGCDTimer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4C18220E0E770E08AFEA9542BE446DF /* Pods-LHGCDTimer_Tests.modulemap */,
+				40ECD267AF6AA36236887F37D775AFFD /* Pods-LHGCDTimer_Tests-acknowledgements.markdown */,
+				DE3386B2E28DA4B512B51ABEE5076980 /* Pods-LHGCDTimer_Tests-acknowledgements.plist */,
+				30430CDBF3B0633DBD71A51F1B065194 /* Pods-LHGCDTimer_Tests-dummy.m */,
+				C47FC8C5BC8F292D1790B968032053BC /* Pods-LHGCDTimer_Tests-Info.plist */,
+				52809ACDF010DEE317CBC43A5CDE458F /* Pods-LHGCDTimer_Tests-umbrella.h */,
+				906214E5F9EAB7C487A31662D0532440 /* Pods-LHGCDTimer_Tests.debug.xcconfig */,
+				81BB8445EEA3C3C4194E3A99F1DE4718 /* Pods-LHGCDTimer_Tests.release.xcconfig */,
+			);
+			name = "Pods-LHGCDTimer_Tests";
+			path = "Target Support Files/Pods-LHGCDTimer_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		45EBA62B240497C922230E8013258E78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C99A4E347EB5798E1E8EBD1C6BD5C5 /* Pods-LHGCDTimer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E96BDF3A2E70DEE68F976421205B55C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812DC4E597E84C98570503ED82CB71AF /* Pods-LHGCDTimer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78E90A463DC2714840248521197EE11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60ED36739D5FB5172AADAB213BC7AB34 /* LHGCDTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01633EA215E6C691136EC381A9DBCB61 /* LHGCDTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F577046878458DF0958BB6331CE74FB3 /* Build configuration list for PBXNativeTarget "LHGCDTimer" */;
+			buildPhases = (
+				D78E90A463DC2714840248521197EE11 /* Headers */,
+				AB3575D1368BB3525ECD2EFE0D85221B /* Sources */,
+				732D21EBCCB3EFDEC1CDD5BD8E8D1DAE /* Frameworks */,
+				54E11F8C2022CE58765C932DC6BCD32A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LHGCDTimer;
+			productName = LHGCDTimer;
+			productReference = 386EE61A349E2F90713C41924C0A31E4 /* LHGCDTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27DA579F7474DABA4FF18F48E101EDB8 /* Pods-LHGCDTimer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0777F24D517A6956BF38AD7B56C7CF7 /* Build configuration list for PBXNativeTarget "Pods-LHGCDTimer_Tests" */;
+			buildPhases = (
+				45EBA62B240497C922230E8013258E78 /* Headers */,
+				2236A475ECB9302E8DA2541F5C0458CD /* Sources */,
+				A4A788B6BA22324E318DD262A0DB9461 /* Frameworks */,
+				B4740C6372D2A88C4BDCC985AFBD9C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C8FC3DFC4BC86DF4320BC3E5FDE3C99 /* PBXTargetDependency */,
+			);
+			name = "Pods-LHGCDTimer_Tests";
+			productName = "Pods-LHGCDTimer_Tests";
+			productReference = 8E48ADA52136C4E7ACD0FE8D4D606593 /* Pods_LHGCDTimer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F538C862240C5985E9506A683BADE81D /* Pods-LHGCDTimer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD131EC1D5E27ED5E65C61BA216A818B /* Build configuration list for PBXNativeTarget "Pods-LHGCDTimer_Example" */;
+			buildPhases = (
+				8E96BDF3A2E70DEE68F976421205B55C /* Headers */,
+				99717E4E90CE812C122A279E2CD9BB70 /* Sources */,
+				A13B9972FF438C0B747E5A86705D77D1 /* Frameworks */,
+				6AB6074806C5F5F060845E5FBE2ABFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCAD7E1C7CEE8198DCD8FDD1D2970E48 /* PBXTargetDependency */,
+			);
+			name = "Pods-LHGCDTimer_Example";
+			productName = "Pods-LHGCDTimer_Example";
+			productReference = CBB831FC58DE5CC960FD912206037B67 /* Pods_LHGCDTimer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1594209E0F654C9D1823DF1880153555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01633EA215E6C691136EC381A9DBCB61 /* LHGCDTimer */,
+				F538C862240C5985E9506A683BADE81D /* Pods-LHGCDTimer_Example */,
+				27DA579F7474DABA4FF18F48E101EDB8 /* Pods-LHGCDTimer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54E11F8C2022CE58765C932DC6BCD32A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB6074806C5F5F060845E5FBE2ABFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4740C6372D2A88C4BDCC985AFBD9C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2236A475ECB9302E8DA2541F5C0458CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD034C3FCD56DB7C057ECD4299031063 /* Pods-LHGCDTimer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99717E4E90CE812C122A279E2CD9BB70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1027800125837CAD013B394A1FE43197 /* Pods-LHGCDTimer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3575D1368BB3525ECD2EFE0D85221B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CE5B4E7A773668BDAE37878CFF768A /* LHGCDTimer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C8FC3DFC4BC86DF4320BC3E5FDE3C99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LHGCDTimer_Example";
+			target = F538C862240C5985E9506A683BADE81D /* Pods-LHGCDTimer_Example */;
+			targetProxy = 5FFB3E256A86ED15AAEF8E57BF336E05 /* PBXContainerItemProxy */;
+		};
+		CCAD7E1C7CEE8198DCD8FDD1D2970E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LHGCDTimer;
+			target = 01633EA215E6C691136EC381A9DBCB61 /* LHGCDTimer */;
+			targetProxy = A232D4759F91C723545C6C5A29434172 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47FEF39CE354671758DAEBADD50A3041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 535BC9304CD43555AFEF192FE47D4FD5 /* Pods-LHGCDTimer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LHGCDTimer_Example/Pods-LHGCDTimer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LHGCDTimer_Example/Pods-LHGCDTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49946D10985F1D2D28CA03DF5D0CFB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81BB8445EEA3C3C4194E3A99F1DE4718 /* Pods-LHGCDTimer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LHGCDTimer_Tests/Pods-LHGCDTimer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LHGCDTimer_Tests/Pods-LHGCDTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		96568E0E3DD9AB7255E21EC3DE1719D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF069F9AFBE43B51E6E05D3212AFBC7 /* Pods-LHGCDTimer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LHGCDTimer_Example/Pods-LHGCDTimer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LHGCDTimer_Example/Pods-LHGCDTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A47B374B828AD4C1E61F90F9F55A16DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDD03AD7B26CBEED15F9DE741D16ACE /* LHGCDTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LHGCDTimer/LHGCDTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LHGCDTimer/LHGCDTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LHGCDTimer/LHGCDTimer.modulemap";
+				PRODUCT_MODULE_NAME = LHGCDTimer;
+				PRODUCT_NAME = LHGCDTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6199EC55AEAA2754829C288F95809FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906214E5F9EAB7C487A31662D0532440 /* Pods-LHGCDTimer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LHGCDTimer_Tests/Pods-LHGCDTimer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LHGCDTimer_Tests/Pods-LHGCDTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D421EEE1ED9227AC43B8570F1A59B443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDD03AD7B26CBEED15F9DE741D16ACE /* LHGCDTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LHGCDTimer/LHGCDTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LHGCDTimer/LHGCDTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LHGCDTimer/LHGCDTimer.modulemap";
+				PRODUCT_MODULE_NAME = LHGCDTimer;
+				PRODUCT_NAME = LHGCDTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0777F24D517A6956BF38AD7B56C7CF7 /* Build configuration list for PBXNativeTarget "Pods-LHGCDTimer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6199EC55AEAA2754829C288F95809FF /* Debug */,
+				49946D10985F1D2D28CA03DF5D0CFB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F577046878458DF0958BB6331CE74FB3 /* Build configuration list for PBXNativeTarget "LHGCDTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D421EEE1ED9227AC43B8570F1A59B443 /* Debug */,
+				A47B374B828AD4C1E61F90F9F55A16DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD131EC1D5E27ED5E65C61BA216A818B /* Build configuration list for PBXNativeTarget "Pods-LHGCDTimer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96568E0E3DD9AB7255E21EC3DE1719D7 /* Debug */,
+				47FEF39CE354671758DAEBADD50A3041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
