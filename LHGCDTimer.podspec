@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/lihui1314/LHGCDTimer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '18221534728@163.com' => '15652628678@163.com' }
+  s.author           = { 'lihui1314' => '15652628678@163.com' }
   s.source           = { :git => 'https://github.com/lihui1314/LHGCDTimer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
